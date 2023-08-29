@@ -10,7 +10,9 @@ export default function Home() {
             <a href="/booking">
                <h1>დაჯავშნა</h1>
             </a>
+            <div className="borderMask"></div>
          </div>
+
          <div
             className={classNames(
                styles.checkBookingContainer,

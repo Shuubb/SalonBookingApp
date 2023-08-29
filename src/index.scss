@@ -85,3 +85,20 @@ input {
    overflow-x: hidden;
    overflow-y: hidden;
 }
+
+.borderMask {
+   -webkit-mask-image: url("./assets/BorderWaveLeft.svg"),
+      linear-gradient(#fff 0 0);
+   -webkit-mask-size: 25px;
+   -webkit-mask-position: 0;
+   -webkit-mask-composite: destination-in;
+   -webkit-mask-repeat: repeat-y;
+   overflow-x: visible;
+   overflow-y: visible;
+   height: 100%;
+   width: 25px;
+   background-color: inherit;
+   z-index: 100;
+   position: absolute;
+   right: -23px;
+}
