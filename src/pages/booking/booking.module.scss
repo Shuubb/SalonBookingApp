@@ -1,0 +1,26 @@
+.container {
+   background-color: #f29ad8;
+}
+
+.inputsContainer {
+   display: flex;
+   flex-direction: column;
+}
+
+.inputForm {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-content: space-around;
+   align-items: center;
+   width: 100%;
+
+   > * > *:not(label) {
+      margin-bottom: 3vh;
+      width: clamp(100px, 90vw, 400px) !important;
+   }
+}
+
+.select {
+   z-index: 1;
+}
